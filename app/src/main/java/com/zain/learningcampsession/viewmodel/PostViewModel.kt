@@ -2,8 +2,8 @@ package com.zain.learningcampsession.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.zain.learningcampsession.UiState
-import com.zain.learningcampsession.repo.PostRepository
+import com.zain.learningcampsession.state.UiState
+import com.zain.learningcampsession.data.repo.PostRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow

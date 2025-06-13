@@ -1,6 +1,6 @@
-package com.zain.learningcampsession
+package com.zain.learningcampsession.state
 
-import com.zain.learningcampsession.model.PostModelDTO
+import com.zain.learningcampsession.data.model.PostModelDTO
 
 // Created by Zain Shakoor
 // on 6/13/2025

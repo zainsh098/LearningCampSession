@@ -8,8 +8,9 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.zain.learningcampsession.adapter.PostAdapter
+import com.zain.learningcampsession.ui.adapter.PostAdapter
 import com.zain.learningcampsession.databinding.ActivityMainBinding
+import com.zain.learningcampsession.state.UiState
 import com.zain.learningcampsession.viewmodel.PostViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest

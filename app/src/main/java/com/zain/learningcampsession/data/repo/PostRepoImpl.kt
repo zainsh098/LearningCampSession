@@ -1,8 +1,8 @@
-package com.zain.learningcampsession.repo
+package com.zain.learningcampsession.data.repo
 
-import com.zain.learningcampsession.api.ApiService
-import com.zain.learningcampsession.model.PostModelDTO
-import com.zain.learningcampsession.model.toDomain
+import com.zain.learningcampsession.data.api.ApiService
+import com.zain.learningcampsession.data.model.PostModelDTO
+import com.zain.learningcampsession.data.model.toDomain
 import javax.inject.Inject
 import javax.inject.Singleton
 

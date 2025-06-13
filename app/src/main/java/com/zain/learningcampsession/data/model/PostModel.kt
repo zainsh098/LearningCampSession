@@ -1,4 +1,4 @@
-package com.zain.learningcampsession.model
+package com.zain.learningcampsession.data.model
 
 import com.squareup.moshi.JsonClass
 import kotlinx.serialization.Serializable

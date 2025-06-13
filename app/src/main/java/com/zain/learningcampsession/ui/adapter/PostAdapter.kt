@@ -1,4 +1,4 @@
-package com.zain.learningcampsession.adapter
+package com.zain.learningcampsession.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.zain.learningcampsession.databinding.ItemPostBinding
-import com.zain.learningcampsession.model.PostModelDTO
+import com.zain.learningcampsession.data.model.PostModelDTO
 
 // Created by Zain Shakoor
 // on 6/13/2025

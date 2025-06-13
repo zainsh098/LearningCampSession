@@ -1,4 +1,4 @@
-package com.zain.learningcampsession.api
+package com.zain.learningcampsession.data.api
 
 import com.squareup.moshi.Moshi
 import dagger.Module
