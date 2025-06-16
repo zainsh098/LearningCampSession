@@ -23,3 +23,12 @@ fun PostModelDTO.toDomain(): PostModelDTO {
 
     )
 }
+
+@Serializable
+@JsonClass(generateAdapter = true)
+data class PostWrite(
+    val userId: Int,
+    val title: String,
+    val body: String
+)
+

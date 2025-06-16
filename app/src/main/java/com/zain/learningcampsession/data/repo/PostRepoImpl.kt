@@ -2,6 +2,7 @@ package com.zain.learningcampsession.data.repo
 
 import com.zain.learningcampsession.data.api.ApiService
 import com.zain.learningcampsession.data.model.PostModelDTO
+import com.zain.learningcampsession.data.model.PostWrite
 import com.zain.learningcampsession.data.model.toDomain
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -19,4 +20,10 @@ class PostRepoImpl @Inject constructor(
             it.toDomain()
         }
     }
+
+    override suspend fun writePost(post: PostWrite): PostWrite {
+        return apiService.writePost(post.userId, post.title, post.body)
+    }
+
+
 }
